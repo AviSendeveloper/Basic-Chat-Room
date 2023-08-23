@@ -1,0 +1,11 @@
+{
+  "name": "basic-chat-room-forntend",
+  "version": "1.0.0",
+  "description": "Frontend part of basic chat room",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Avijit Sen",
+  "license": "ISC"
+}
