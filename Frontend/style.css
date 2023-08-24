@@ -67,4 +67,9 @@ button:disabled {
     margin-top: 5px;
 }
 
+.msg-div {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
 /* Add more styles as needed */
