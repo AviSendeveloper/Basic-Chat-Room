@@ -1,9 +1,14 @@
 const inputMsg = document.getElementById("message");
-
 const room = document.getElementById("room");
 const createRoomBtn = document.getElementById("createRoom");
-
 const form = document.getElementById("form");
+
+const socket = io("http://localhost:3000");
+
+socket.on("connect", (socket) => {
+    // const socketId = await socket.id;
+    displayMessage(`You are connect to server`);
+});
 
 // Action
 form.addEventListener("submit", (e) => {
