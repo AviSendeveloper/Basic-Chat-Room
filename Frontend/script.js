@@ -14,7 +14,6 @@ socket.on("joined", ({ connectedId }) => {
 });
 
 socket.on("push-message", ({ pushedMessage }) => {
-    console.log("pushedMessage: ", pushedMessage);
     displayMessage(pushedMessage);
 });
 
